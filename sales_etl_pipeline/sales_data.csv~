@@ -1,0 +1,5 @@
+order_id,customer_name,product,quantity,price,date
+1001,John Doe,Laptop,1,700,2024-12-01
+1002,Alice Smith,Mouse,2,20,2024-12-02
+1003,,Keyboard,1,50,2024-12-03
+1004,Charlie Brown,Monitor,1,150,

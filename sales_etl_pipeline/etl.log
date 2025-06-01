@@ -1,0 +1,37 @@
+2025-06-01 14:12:50,341 INFO: Starting ETL process
+2025-06-01 14:12:50,350 INFO: Extracted 2 rows from data/raw_sales.csv
+2025-06-01 14:12:50,360 INFO: Transformed data from 2 to 2 rows
+2025-06-01 14:12:50,425 ERROR: Failed to load data: (mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-01 14:12:50,425 ERROR: ETL process failed: (mysql.connector.errors.ProgrammingError) 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-06-01 14:15:43,708 INFO: Starting ETL process
+2025-06-01 14:15:43,717 INFO: Extracted 2 rows from data/raw_sales.csv
+2025-06-01 14:15:43,717 INFO: Transformed data from 2 to 2 rows
+2025-06-01 14:15:43,824 INFO: Ensured sales table exists.
+2025-06-01 14:15:43,908 INFO: Loaded 2 rows into MySQL table 'sales'
+2025-06-01 14:15:43,908 INFO: ETL process completed successfully
+2025-06-01 14:27:08,938 INFO: Starting ETL process
+2025-06-01 14:27:08,941 INFO: Extracted 2 rows from data/raw_sales.csv
+2025-06-01 14:27:08,947 INFO: Transformed data from 2 to 2 rows
+2025-06-01 14:27:09,040 INFO: Ensured sales table exists.
+2025-06-01 14:27:09,096 INFO: Loaded 2 rows into MySQL table 'sales'
+2025-06-01 14:27:09,096 INFO: ETL process completed successfully
+2025-06-01 14:59:37,569 INFO: Starting ETL process
+2025-06-01 14:59:37,573 INFO: Extracted 2 rows from data/raw_sales.csv
+2025-06-01 14:59:37,578 INFO: Transformed data from 2 to 2 rows
+2025-06-01 14:59:37,652 INFO: Ensured sales table exists.
+2025-06-01 14:59:37,712 INFO: Loaded 2 rows into MySQL table 'sales'
+2025-06-01 14:59:37,712 INFO: ETL process completed successfully
+2025-06-01 15:08:00,022 INFO: Starting ETL process
+2025-06-01 15:08:00,028 INFO: Extracted 50 rows from data/raw_sales.csv
+2025-06-01 15:08:00,033 INFO: Transformed data from 50 to 50 rows
+2025-06-01 15:08:00,109 INFO: Ensured sales table exists.
+2025-06-01 15:08:00,165 INFO: Loaded 50 rows into MySQL table 'sales'
+2025-06-01 15:08:00,165 INFO: ETL process completed successfully
+2025-06-01 15:15:23,367 INFO: Starting ETL process
+2025-06-01 15:15:23,370 INFO: Extracted 50 rows from data/raw_sales.csv
+2025-06-01 15:15:23,375 INFO: Transformed data from 50 to 50 rows
+2025-06-01 15:15:23,450 INFO: Ensured sales table exists.
+2025-06-01 15:15:23,500 INFO: Loaded 50 rows into MySQL table 'sales'
+2025-06-01 15:15:23,500 INFO: ETL process completed successfully
